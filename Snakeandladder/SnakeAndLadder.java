@@ -14,6 +14,9 @@ public class SnakeAndLadder {
 		System.out.println("Dice Roll: " + diceRoll);
 		position = position + diceRoll;
 		System.out.println("New Position of Player is: " + position);
+		
+		//random check
+		int option = (int) (Math.floor(Math.random() * 10 ) % 3 + 1);
 	}
 
 }
