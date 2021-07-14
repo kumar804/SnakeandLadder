@@ -8,6 +8,7 @@ public class SnakeAndLadder {
 		//Printing player position UC1
 		int position = 0;
 		int diceRoll = 0;
+		int numDiceRolls = 0;
 		System.out.println("The player Position is:-" + position);
 		
 		while (position <= 100) {
@@ -53,6 +54,6 @@ public class SnakeAndLadder {
 		
 		}
 	}
-
+		System.out.println("Total number of Dice Rolls required to win is: " + numDiceRolls);
 }
 	}
